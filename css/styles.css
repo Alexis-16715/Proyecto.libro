@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+  background-image: url(../Imagenes/Lonesome.jpg);
+}
+ul, ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+h2{
+  color: rgb(0, 0, 0);
+}
+.preguntas-frecuentes{
+	width: 100%;
+	margin: 0 auto 100px;
+	position: relative;
+	overflow: hidden;
+}
+@media (min-width: 250px) {
+  img{
+    width: 100%;
+  }
+  .firs-logo{
+    border-radius: 50%;
+    width: 250px;
+    margin: 15px auto 30px;
+    display: block;
+    box-shadow: 0 0 10px #000;
+  }
+  .inicio{
+    font-size: 100px;
+  }
+  .main-nav{
+    font-size: 15px;
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #0B5345  ;
+    overflow: hidden;
+    transition: 900ms;
+  }
+  .main-nav a{
+    display: block;
+    color: #b3aaab;
+    font-size: 4em;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: solid 5px #ffffff;
+    text-transform: uppercase;
+  }
+  #open-nav:checked ~ .main-nav{
+    width: 100vw;
+  }
+  #open-nav{
+    display: none;
+  }
+  .cierra{
+    color: #212F3C ;
+    font-size: 4em;
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+  .toggle-nav{
+    display: block;
+    font-size: 2em;
+    color: white;
+    padding: 15px 20px;
+    margin: auto;
+    width: 50px;
+    background-color:  #34495E;
+    text-align: center;
+  }
+  .main-footer{
+    display: block;
+    border-bottom: solid 1px #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #154360  ;
+  }
+  .main-footer a{
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    border-bottom: 100% solid 2px #fff;
+    background-color: #154360 ;
+    font-size: 20px;
+    padding: 0 5px
+  }
+}
+@media (min-width: 1080px) {
+  body{
+    font-size: 15px;
+  }
+  .main-nav{
+    width: 100%;
+    height: auto;
+    position: static;
+    background-color: transparent;
+    transition: 1ms;
+  }
+  .main-nav a{
+    background-color:#2E86C1;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: none;
+    font-size: 20px;
+    color: black;
+  }
+  .main-nav li{
+    float: left;
+    width: 20%;
+    margin: 2% 2.50%;
+  }
+  .cierra, .toggle-nav{
+    display: none;
+  }
+  .banner{
+    display: block;
+    margin: 20px 0.83% 15px;
+  }
+  .main-footer a{
+    text-align: center;
+    border-bottom: none;
+  }
+  .main-footer li{
+    display: inline-block;
+    padding: 5px 5px;
+    width: 31%;
+    margin: 0 0.83%;
+    font-size: 15px;
+  }
+  .main-footer li: last-child a{
+    border-right: none;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1200px;
+    margin: auto;
+  }
+}
