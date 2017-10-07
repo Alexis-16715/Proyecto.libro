@@ -1,6 +1,3 @@
-<?php
-include_once ("includes/head.php");
-?>
 <section class="quienessomos">
       <h1> ¿Quiénes somos?</h1>
       <p> Library Company: la mayor plataforma de libros digitales en español.
@@ -52,6 +49,3 @@ include_once ("includes/head.php");
         </article>
       </section>
 
-<?php
-include_once ("includes/end.php");
-?>

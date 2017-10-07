@@ -26,7 +26,7 @@
 
 		<!-- Footer -->
 			
-		<?php include("includes/end.php"); ?>		
+		<?php include("file:///C|/xampp/htdocs/proyecto-libro/includes/end.php"); ?>		
 
 		
     </body>
