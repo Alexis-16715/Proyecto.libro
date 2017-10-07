@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="icon" href="Imagenes/libro-icono-MRK-2.ico">
     <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body>
         <!-- Contenido del sitio -->
 		<!-- head->
-		<?php include("includes/head.php"); ?>
+		<?php include("includes/header.php"); ?>
 		<!-- head-end -->
 		<!-- menu-area- -->
 		<?php include("includes/menu.php"); ?>
@@ -26,7 +27,7 @@
 
 		<!-- Footer -->
 			
-		<?php include("file:///C|/xampp/htdocs/proyecto-libro/includes/end.php"); ?>		
+		<?php include("includes/end.php"); ?>		
 
 		
     </body>

@@ -1,4 +1,6 @@
-<header class="main-header">
+	    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <header>
     <div class="search">
       <form class="busqueda">
         <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">

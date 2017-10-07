@@ -1,5 +1,5 @@
 <?php
-	require_once('includes/head.php');
+	require_once('includes/header.php');
 ?>
 <br><br>
 			<div align="left" class="section group">
@@ -12,5 +12,5 @@
 		</div>
 		</div>
 <?php
-	require_once('includes/end.php');
+	require_once('includes/footer.php');
 ?>
