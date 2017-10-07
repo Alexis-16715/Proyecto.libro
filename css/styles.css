@@ -157,7 +157,7 @@ h2{
   }
 }
 @media (min-width: 1200px) {
-  .container{
+  .contenedor{
     max-width: 1200px;
     margin: auto;
   }

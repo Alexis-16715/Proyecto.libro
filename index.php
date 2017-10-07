@@ -14,10 +14,10 @@
     </head>
     <body>
         <!-- Contenido del sitio -->
-	<div class="container">
-		<!-- head->
+	<div class="contenedor">
+		<!-- header->
 		<?php include("includes/header.php"); ?>
-		<!-- head-end -->
+		<!-- header-end -->
 		<div>------------------------falta ver el header -----------------------------------</div>
 		<!-- menu-area- -->
 		<?php include("includes/menu.php"); ?>

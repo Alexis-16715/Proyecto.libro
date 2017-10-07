@@ -1,4 +1,3 @@
-	    <link rel="stylesheet" href="../css/bootstrap.css">
 
     <header>
     <div class="search">
@@ -11,4 +10,4 @@
               <img src="../Imagenes/icono-libro.jpg" alt="logotipo" class="firs-logo">
 			 </div>
   
-</header>
+	</header>
