@@ -14,21 +14,24 @@
     </head>
     <body>
         <!-- Contenido del sitio -->
+	<div class="container">
 		<!-- head->
 		<?php include("includes/header.php"); ?>
 		<!-- head-end -->
+		<div>------------------------falta ver el header -----------------------------------</div>
 		<!-- menu-area- -->
 		<?php include("includes/menu.php"); ?>
 		<!-- menu-area-end -->
 		<!-- Inicio-->
 			<!--pag. principal  -->
 		<?php include("inicio.php"); ?>
-				<!--fin pag. principal -->		
+
+			<!--fin pag. principal -->		
 
 		<!-- Footer -->
 			
-		<?php include("includes/end.php"); ?>		
-
+		<?php include("includes/footer.php"); ?>		
+	</div>	
 		
     </body>
 </html>

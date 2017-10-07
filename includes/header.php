@@ -8,7 +8,7 @@
       </form>
     </div>
              <div class="logo"> 
-              <img src="Imagenes/icono-libro.jpg" alt="logotipo" class="firs-logo">
+              <img src="../Imagenes/icono-libro.jpg" alt="logotipo" class="firs-logo">
 			 </div>
   
 </header>

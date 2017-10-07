@@ -31,9 +31,9 @@ h2{
 .busqueda{
   float: right;
 }
-.preguntas-frecuentes{
+.preguntas-frecuentes .quienessomos{
 	width: 100%;
-	margin: 0 auto 100px;
+	margin: 20 auto ;
 	position: relative;
 	overflow: hidden;
 }
