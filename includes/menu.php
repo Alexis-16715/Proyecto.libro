@@ -1,4 +1,5 @@
-     <div class="container-menu">
+     <link rel="stylesheet" href="../css/styles.css">
+      <div class="container-menu">
        <input type="checkbox" id="open-nav">
        <label for="open-nav" class="toggle-nav">
          <span class="ion-navicon-round"></span>
