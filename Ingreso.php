@@ -1,5 +1,7 @@
 <?php
+session_start();
 include_once ("includes/header.php");
+
 ?>
 <br>
 <h2 id="ingreso2"><div class="container" id="cuerpo2">

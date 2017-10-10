@@ -15,9 +15,9 @@
     <body>
         <!-- Contenido del sitio -->
 	<div class="contenido">
-				<!-- header->
+				<!-- header-->
 		<?php include("includes/header.php"); ?>
-		<!-- header-end -->
+		<!--- header-end -->
 		<!-- menu-area- -->
 		<?php include("includes/menu.php"); ?>
 		<!-- menu-area-end -->
@@ -25,13 +25,13 @@
 			<!--pag. principal  -->
 		<?php include("inicio.php"); ?>
 
-			<!--fin pag. principal -->		
+			<!--fin pag. principal -->
 
 		<!-- Footer -->
-			
-		<?php include("includes/footer.php"); ?>		
+
+		<?php include("includes/footer.php"); ?>
 	</div>
-	<div>&nbsp;</div>	
-		
+	<div>&nbsp;</div>
+
     </body>
 </html>

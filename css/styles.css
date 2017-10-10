@@ -103,6 +103,7 @@ h2{
     width: 50px;
     background-color:  #34495E;
     text-align: center;
+    clear: both;
   }
   .main-footer{
     display: block;
@@ -132,41 +133,37 @@ h2{
 
 div[class*="box-"] {
 	margin: 4px 0;
-    display: table-cell; 
+  display: block;
 	vertical-align:top;
 	height: 110px;
+  float: left;
 }
 
   .box-i {
-    width: 39%;
+  width: 39%;
 	text-align: left;
-	padding: 5px ;
-	float: left;
+	padding: 20px ;
   }
   .box-c {
 	width: 20%;
 	text-align: center;
 	padding-bottom: 5px ;
-	float: left;
-  }   
+  }
   .box-d {
 	width: 39%;
 	text-align: right;
 	font-family: sans-serif;
-	padding-bottom: 5px ;
-	padding-right: 5px;
-	float: left;
-  } 
+	padding-right: 20px;
+  }
 	.box-i img {
   float: left;
 }
 	.box-c img {
-   float: none
 }
 	.box-d img {
    float: right;
 }
-	
+
 }
 
 @media (min-width: 1080px) {
