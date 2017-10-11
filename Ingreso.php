@@ -1,8 +1,3 @@
-<?php
-session_start();
-include_once ("includes/header.php");
-
-?>
 
 <!doctype html>
 <html class="no-js" lang="es">
