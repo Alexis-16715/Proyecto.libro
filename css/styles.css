@@ -190,7 +190,7 @@ display: block;
 }
 
 div[class*="box-"] {
-  display: inline-flex;
+  display: block;
 	align-items: center;
 	justify-content: space-between;
    margin: 4px;
