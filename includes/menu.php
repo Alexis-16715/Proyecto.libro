@@ -11,11 +11,11 @@
              <label class="cierra" for="open-nav">
                <span class="ion-close-circled"></span>
              </label>
-             <a href="inicio.php">Inicio</a>
+             <a href="index.php">Inicio</a>
            </li>
            <li><a href="preg-frec.php">Preguntas</a></li>
-           <li><a href="Ingreso.php">Ingresa</a></li>
-           <li><a href="registro.php">Registro</a></li>
+           <li><a href="#">Consultas</a></li>
+           <li><a href="quienes.php">Quienes Somos</a></li>
          </ul>
        </nav>
 	</div>

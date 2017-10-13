@@ -1,3 +1,15 @@
+<?php
+	session_start();
+
+	require_once('register-login/funciones.php');
+
+	if (estaLogueado()) {
+		$usuario = traerId($_SESSION['userId']);
+		$laImagen = glob('images/avatares/' . $usuario['email'] . '*');
+	}
+
+	$tituloDePagina = 'Inicio';
+?>
  <!doctype html>
 <html class="no-js" lang="es">
     <head>

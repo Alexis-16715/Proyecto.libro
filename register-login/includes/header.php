@@ -1,5 +1,5 @@
 <header class="main-header">
-	<h1>Welcome to the Paradise City</h1>
+	<h1>Bienvenido a Libros 4U</h1>
 	<div class="perfil">
 		<?php if (isset($usuario)): ?>
 			<a class="button" href="perfil-usuario.php">Mi Perfil</a>
