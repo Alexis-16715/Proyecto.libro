@@ -9,7 +9,7 @@
          <ul>
            <li>
              <label class="cierra" for="open-nav">
-               <span class="ion-close-circled"></span>
+              <!-- <span class="ion-close-circled"></span> -->
              </label>
              <a href="index.php">Inicio</a>
            </li>
